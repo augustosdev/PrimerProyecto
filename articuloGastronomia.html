@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viajeros-Gastronomia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/75e046272c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/SRStyles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a href="Viajeros.html" class="navbar-brand">
+            <img src="https://tip-viajero.com/wp-content/uploads/2020/06/cropped-tip-viajero-logo.png" width="40" height="30"
+            class=" LogoViajeros d-inline-block align-top" alt="Logo">
+            Viajeros</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarDark">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="Hospedajes.html">Hospedaje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Actividades.html">Actividades</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Gastronomia</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Roma">Roma</a></li>
+                  <li><a class="dropdown-item" href="#Paris">Paris</a></li>
+                  <li><a class="dropdown-item" href="#Miami">Miami</a></li>
+                  <li><a class="dropdown-item" href="#Rio">Rio de Janeiro</a></li>
+                  <li><a class="dropdown-item" href="#Bangkok">Bangkok</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vuelos.html">Vuelos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
+                    Inicio de sesion
+                </button>
+                    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="loginLabel">Bienvenido</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-outline mb-4">
+                                          <input type="email" id="mail" class="form-control" placeholder="usuario@gmail.com" />
+                                          <label class="form-label" for="mail">Usuario</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                          <input type="password" id="contraseña" class="form-control" />
+                                          <label class="form-label" for="contraseña">Contraseña</label>
+                                        </div>
+                                        <div class="row mb-4">
+                                          <div class="col d-flex justify-content-center">
+                                            <div class="form-check">
+                                              <input class="form-check-input" type="checkbox" value="" id="recordarme" checked />
+                                              <label class="form-check-label" for="recordarme"> Recordarme </label>
+                                            </div>
+                                          </div>
+                                          <div class="col">
+                                            <a href="#!">Olvidaste la contraseña?</a>
+                                          </div>
+                                        </div>
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary btn-block mb-4">Iniciar sesion</button>
+                                        </div>    
+                                        <div class="text-center">
+                                          <p>No eres miembro? <a href="registro.html" target="_blank">Registrate</a></p>
+                                          <p>o registrate con:</p>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-google"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-twitter"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-github"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+      <div class="HeaderGastronomia">
+        <h1 class="TituloGastronomia d-flex justify-content-center my-5">
+          Gastronomía
+        </h1>
+      </div>
+    </header>
+
+    <section class="Roma">
+      <div class="container-fluid ImagenRoma mt-3">
+        <a name="Roma"><h4 class="TRoma d-flex justify-content-center my-5">Roma</h4></a>
+
+      </div>
+      <article class="container mt-3">
+        <div class="row d-flex justify-content-around">
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://www.giallozafferano.com/images/228-22822/Spaghetti-Cacio-e-Pepe-Pecorino-and-black-pepper-spaghetti_1200x800.jpg" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Spaghetti Cacio e Pepe</h5>
+            <p class="card-text">
+              Un plato de pasta tan sencillo como delicioso: estos espaguetis se saltean con aceite, pecorino romano y 
+              pimienta. Un buen lugar para probar este sabroso plato es en el restaurante "Tonnarello", en el corazón 
+              de el barrio del Trastévere.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://lh3.googleusercontent.com/G4rbhFjFOTV-Vp8aoevkVgw0v4ZaJG5cnvmBfBSjtYaZMJyDaK87VyYKx_DtNH3cgCCFP4ieV0ryIKqw1ltKFyiP0jSBrkl7aoWTAgmVpFTaFz5SzSwEhQiUgbOVsuslj0wEwK39xt-C0WyT-CApkWKTk7Q74b8wlQVrcBSMgVfPUC1V81gkBGEGBIETOZ5pxFOyH1fanQmvK9vpaQTnJFO4vGTH07Xvm5G-s_HdmXzSRiz7UB98-kCkTGGvMq_slC7Hx0dp8WG_pVrUbqnebw-3As0vsWfiQR7LEUy2vfKUuKLdbOaORFXsYOUTnAEe-Sn9ZZy7MbJDoTAsc9mnu1VZl8RL9MNgD9XgCScEZVsQpR5Jp0k-rfqHxbEVKT5_PxQtn8cOAdvgjOg3EH5_VSejYZyb5v7ejhYqvSeCIm1lqJrz1qMIB0KSHQvw9EJ71FWsKriMy9DuOQylJkYROSQCgi_QkPebVNBTzZVnLymTFwLiQcTokcwNlgs8Y1J73ymWfJRdurAodJt_kZftl1JF-kH7pja_smnn_Guo-xrM-pq0qnZbbOaUBTV3LkMkdX9TvjJvrnvWf4dSOHyQOoZ-jGzGZgUACt5Xu7OG5QGqVLhdQkXst-KKfGoV7rPvH8hcvyhMS9e5YyOg27AfjXSgLpja1kjy=w1000-h667-no" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Saltimbocca alla Romana</h5>
+            <p class="card-text">
+              Los saltimbocca (literalmente "saltan en la boca") son unos rollitos de carne rellenos de jamón y salvia. 
+              Están riquísimos, para nosotros son uno de los mejores platos de la cocina romana.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://lh3.googleusercontent.com/mJOBOqw9raVpJPNqJwjwlw9tcSbSWzPtoEfAlvBQ0JX9pYoh6AEucD0sRXtP_o3yn-iWrNczMFQOJgSCN-ze1Bgs0zXmtIzSkB58URJYzzkMlnvA5gxI_SqhflcxKc8ado89p0jKviRlMZHVDurtst1Rgg3Z3-yC7Tr6nRfkhRZNpp1SKVX1d2A0hSY_KIU3Ol4S5OFU7XokheP8vO6KPJxmdJiaYBnJ8CYqB5zxrBT2MDYCiD1DdUHI9xdiCC2Kx2905pJHHG5K35YLfAB8qhsq-vvVTep-BR14nlqVR0DKL8ziZ1rIsH3xRu3djmKf8Lcp60RxtwfEgpPMEgYM_bRa1fBPMVjgkMUJtpmEh8CTvoPVFkIEGzTI-AuMMBAqQHLioX2x-phZYETZ2fEptbn4J6B4xvL0Ii-ySx_-HR3OmyaXmmxm4v9zqhvG0zFxbH-ywldEHtuOSyoOGtf0vdKoJCVz5EOmcnWXyMHJiLI6IK66hc3Z4y8ORdgWXXUrZNR3wGtzBIu-bSFNFiZxooay2to_S7GJtO_EF8LkLMJ2jSX9ogID-76jwM9M6UJvLu3WXVej7wSSEzBdxCXp1XEyGYAZfd3DwfMOnTZ_TeApw4AfwHXqjdWdiMikGm0bcu3NE7GtWZAjFohsXL8TFIRAUUqToU0p=w1000-h667-no" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Gelato</h5>
+            <p class="card-text">
+              El gelato italiano es el mejor helado del mundo (siempre bajo nuestro punto de vista).Una parada en la 
+              histórica heladería "Giolitti" llena de tradición es obligatoria antes o/y después
+                de una visita al Panteón. No te olvides de pedir la nata (panna montata) para que el helado esté
+                 riquísimo! Se encuentra en Via Uffici del Vicario 40.
+            </p>
+          </div>
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <section class="Paris" name="Paris">
+      <div class="container-fluid ImagenParis mt-3">
+        <a name="Paris"><h4 class="TRoma d-flex justify-content-center my-5">Paris</h4></a>
+
+      </div>
+      <article class="container mt-3">
+        <div class="row d-flex justify-content-around">
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://a.cdn-hotels.com/gdcs/production82/d705/141b504f-726e-4580-bfcf-01ffaaa826b2.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Steak frites en el Relais de l`Entrecôte</h5>
+            <p class="card-text">
+              El steak frites es quizás el plato de bistró más emblemático del olimpo gastronómico francés. 
+              Este sencillo y suculento plato consta de un filete de ternera a la sartén, normalmente solomillo, 
+              tapilla o entrecot, acompañado de patatas fritas. El plato, contundente y apetitoso, puede encontrarse hoy 
+              en día por todo el mundo.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://a.cdn-hotels.com/gdcs/production28/d1712/6430e936-0067-48c1-89aa-745ba1bbe337.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Sopa de cebolla francesa</h5>
+            <p class="card-text">
+              Aunque la sopa de cebolla ha existido, de una forma u otra, desde la época romana, fueron los franceses 
+              quienes mejoraron y se adjudicaron este popular plato. Cuenta la historia que el rey Luis XV dignificó 
+              este plato preparándolo un día en su refugio de caza. Como no tenía nada en la despensa, añadió a la sopa 
+              mantequilla y champán y creó así uno de los platos franceses más emblemáticos.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://a.cdn-hotels.com/gdcs/production128/d1143/82b3bb89-d95c-4b77-966e-36e4e6315ae5.jpg?impolicy=fcrop&w=1600&h=1066&q=medium" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Macarrones</h5>
+            <p class="card-text">
+              Los macarons destacan entre las delicias francesas más internacionales. Esta elegante galletita se ha 
+              convertido en el icono del Ladurée, una de las pastelerías más 
+              populares de París. El sofisticado dulce está compuesto por dos mitades de macarrón rellenas de ganache 
+              de un sinfín de sabores.
+            </p>
+          </div>
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <section class="Miami">
+      <div class="container-fluid ImagenMiami mt-3">
+        <a name="Miami"><h4 class="TRoma d-flex justify-content-center my-5">Miami</h4></a>
+
+      </div>
+      <article class="container mt-3">
+        <div class="row d-flex justify-content-around">
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://www.viajarmiami.com/img/que-comer-miami.jpg" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Chicharrones</h5>
+            <p class="card-text">
+              En Miami encontrarás un montón de platos influenciados por la gastronomía latina y caribeña. El chicharrón,
+               en este caso, es un alimento básico en la cocina sudamericana. Consiste en cortezas de cerdo fritas.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://www.viajarmiami.com/img/gastronomia-miami.jpg" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Stone Crabs</h5>
+            <p class="card-text">
+              De octubre a mayo, encontrarás este plato de temporada en muchas marisquerías del sur de Florida. El 
+              cangrejo de piedra es una de las carnes de cangrejo más tiernas y jugosas que puedes comer. Las pinzas se 
+              sirven frías y con rodajas de limón. Muy variables en tamaño, su sabor dulce es muy característico 
+              (se asemeja mucho a la langosta) por lo que requiere muy poco condimento.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://www.viajarmiami.com/img/platos-tipicos-miami.jpg" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Key Lime Pie</h5>
+            <p class="card-text">
+              Si viajas a Miami, asegúrate de probar al menos un trozo de este típico pastel de limón. El Key Lime es 
+              una especialidad de la gastronomía de Miami y no lo encontrarás fuera más allá del Estado de Florida. 
+              Recuerda: el pastel de limón perfecto debe ser dulce, ácido, crujiente y cremoso a la vez.
+            </p>
+          </div>
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <section class="Rio">
+      <div class="container-fluid ImagenRio mt-3">
+        <a name="Rio"><h4 class="TRoma d-flex justify-content-center my-5">Rio de Janeiro</h4></a>
+
+      </div>
+      <article class="container mt-3">
+        <div class="row d-flex justify-content-around">
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://www.comedera.com/wp-content/uploads/2022/03/feijoada-brasilena.jpg" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Feijoada</h5>
+            <p class="card-text">
+              Este podría ser el plato típico brasileño por excelencia de Río de Janeiro. Eso sí, esperamos que tengas 
+              hambre porque este plato no te va a dejar hueco para el postre. Una cazuela con frijoles o judías negras 
+              acompañadas de trozos de carne de cerdo. Este plato de cuchara se sirve a veces con naranja y arroz.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://i0.wp.com/www.turismobr.com/wp-content/uploads/2017/02/leao-veloso.jpg" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Leão Veloso</h5>
+            <p class="card-text">
+              El pescado es el protagonista de esta comida típica brasileña. Desde langosta, a cabezas de camarones, 
+              trozos de pescado y más mariscos. Es un guiso caldoso que constituye un plato bastante contundente para 
+              coger fuerzas en la visita a la ciudad de Río de Janeiro.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://blog.amigofoods.com/wp-content/uploads/2021/01/quindim.jpg" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Quindim</h5>
+            <p class="card-text">
+              Para acabar la comida siempre viene bien un postre. Sus ingredientes son bien sencillos: yema de huevo, 
+              azúcar y coco rallado, aunque tiene un color amarillo que le da el colorante. Tiene el aspecto de un flan, 
+              y a los que les gusta el dulce este postre típico brasileño les encatantara.
+            </p>
+          </div>
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <section class="Bangkok">
+      <div class="container-fluid ImagenBangkok mt-3">
+        <a name="Bangkok"><h4 class="TRoma d-flex justify-content-center my-5">Bangkok</h4></a>
+
+      </div>
+      <article class="container mt-3">
+        <div class="row d-flex justify-content-around">
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://allwaysdelicious.com/wp-content/uploads/2021/01/fish-cakes-fried-horiz-1.jpg" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Tod Man Pla</h5>
+            <p class="card-text">
+              Una comida típica en pequeñas dosis, perfecta para abrir boca antes de la comida o la cena. Son unos 
+              pastelitos de pescado con un poco de sabor a curry, cilantro y limón. Pueden servirlos solos o acompañados 
+              de un poco de cebolla.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://i0.wp.com/www.brasswok.com/wp-content/uploads/2018/03/3c6ba71b-65e0-4d4e-84fb-eeada39e4822.jpg?fit=750%2C500&ssl=1" alt="Plato" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Som Tam</h5>
+            <p class="card-text">
+              Tras este nombre se esconde una ensalada de papaya verde que, además de una comida típica tailandesa, es 
+              una muy buena opción si te apetece comer algo ligero y fresco. Se le añade chili, tomate, ajo y una salsa 
+              de pescado que le da sabor al plato típico.
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://lacomidatipica.com/wp-content/uploads/2019/06/Sticky-rice-mango-.png" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Sticky rice mango</h5>
+            <p class="card-text">
+              No nos hemos olvidado del postre. El mango acompaña a un arroz compacto gracias a que se le ha añadido 
+              leche de coco. Puedes probar esta comida típica tanto en restaurantes como en los puestos callejeros para 
+              poder disfrutar de él mientras visitas la ciudad de Bangkok.
+            </p>
+          </div>
+        </div>
+      </div>
+      </article>
+    </section>
+
+    <footer class="pie-pagina mt-4">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="#">
+                  <img class="d-none d-sm-block" src="https://tip-viajero.com/wp-content/uploads/2020/06/cropped-tip-viajero-logo.png" >
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2> SOBRE NOSOTROS </h2>
+              <p> Quienes somos </p>
+              <p> Contacto </p>
+              <p> Promociones bancarias </p>
+          </div>
+          
+          <div class="box-2">
+              <h2> SIGUENOS </h2>
+              <div class="red-social">
+                  <a href="#" class="fa fa-facebook"> </a>
+                  <a href="#" class="fa fa-twitter"> </a>
+                  <a href="#" class="fa fa-instagram"> </a>
+                  <a href="#" class="fa fa-youtube"> </a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2022 <b>Slee Dw</b> - Todos los Derechos Reservados. </small>
+      </div>
+
+  </footer>
+
+    
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

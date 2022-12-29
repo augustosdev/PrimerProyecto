@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viajeros-Vuelos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/75e046272c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/SRStyles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a href="Viajeros.html" class="navbar-brand">
+            <img src="https://tip-viajero.com/wp-content/uploads/2020/06/cropped-tip-viajero-logo.png" width="40" height="30"
+            class=" LogoViajeros d-inline-block align-top" alt="Logo">
+            Viajeros</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarDark">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="Hospedajes.html">Hospedaje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Actividades.html">Actividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="articuloGastronomia.html">Gastronomia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Vuelos</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Roma">Roma</a></li>
+                  <li><a class="dropdown-item" href="#Paris">Paris</a></li>
+                  <li><a class="dropdown-item" href="#Miami">Miami</a></li>
+                  <li><a class="dropdown-item" href="#Rio">Rio de Janeiro</a></li>
+                  <li><a class="dropdown-item" href="#Bangkok">Bangkok</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
+                    Inicio de sesion
+                </button>
+                    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="loginLabel">Bienvenido</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-outline mb-4">
+                                          <input type="email" id="mail" class="form-control" placeholder="usuario@gmail.com" />
+                                          <label class="form-label" for="mail">Usuario</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                          <input type="password" id="contraseña" class="form-control" />
+                                          <label class="form-label" for="contraseña">Contraseña</label>
+                                        </div>
+                                        <div class="row mb-4">
+                                          <div class="col d-flex justify-content-center">
+                                            <div class="form-check">
+                                              <input class="form-check-input" type="checkbox" value="" id="recordarme" checked />
+                                              <label class="form-check-label" for="recordarme"> Recordarme </label>
+                                            </div>
+                                          </div>
+                                          <div class="col">
+                                            <a href="#!">Olvidaste la contraseña?</a>
+                                          </div>
+                                        </div>
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary btn-block mb-4">Iniciar sesion</button>
+                                        </div>    
+                                        <div class="text-center">
+                                          <p>No eres miembro? <a href="registro.html" target="_blank">Registrate</a></p>
+                                          <p>o registrate con:</p>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-google"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-twitter"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-github"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+      <div class="HeaderGastronomia">
+        <h1 class="TituloGastronomia d-flex justify-content-center my-5">
+          Vuelos
+        </h1>
+      </div>
+    </header>
+
+    <section class="Roma">
+      <div class="container ImagenRoma mt-3">
+        <h4 class="TRoma d-flex justify-content-center my-5">Roma</h4>
+      </div>
+
+    <div class="box1">
+      <article class="container mt-3">
+
+        <div class="row d-flex justify-content-around">
+          <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+              <div class="my-3">
+              <img src="https://www.enroma.com/wp-content/uploads/elementor/thumbs/Coliseo-Romano-p9hfybrrriyw7zyeoat3i5xq91dbuq09smp8uhsmrk.jpg" alt="Aeropuerto" class="img-fluid" />
+              </div>
+              <div class="card-body">
+              <h5 class="card-title"> Aeropuerto Internacional <em>"Roma-Fiumicino."</em> </h5>
+              <p class="card-text">
+                <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">AEP-FCO</small>
+                  <small> vie.30 dic. 2022 </small>
+                  <small class="text-muted">23:00- 1 escala</small>
+              </p>
+              <p class="card-text">
+                <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">FCO-AEP</small>
+                  <small> jue.19 ene. 2023 </small>
+                  <small class="text-muted">12:00- 1 escala</small>
+              </p>
+              <p class="card-text">
+                  <small> $340.000 </small>
+                  <small class="text-muted"><em> 18 dias </em></small>
+              </p>
+              </div>
+        </div>
+
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://www.enroma.com/wp-content/uploads/elementor/thumbs/Coliseo-Romano-p9hfybrrriyw7zyeoat3i5xq91dbuq09smp8uhsmrk.jpg" alt="Aeropuerto" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Aeropuerto <em>"G.B Roma-Ciampino".</em> </h5>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">AEP-LIS-CIA</small>
+              <small> mar.21 mar. 2023 </small>
+              <small class="text-muted">19:05- 2 escalas</small>
+            </p>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">CIA-LIS-AEP</small>
+              <small> sab.18 mar. 2023 </small>
+              <small class="text-muted">17:45- 2 escalas</small>
+            </p>
+            <p class="card-text">
+              <small> $300.000 </small>
+              <small class="text-muted"><em> 12 dias </em></small>
+            </p>
+          </div> 
+        </div>
+      </div>
+      </article>
+    </div>
+  </section>
+  
+
+  <section class="Paris">
+      <div class="container ImagenParis mt-3">
+        <h4 class="TRoma d-flex justify-content-center my-5">Paris</h4>
+      </div>
+
+    <div class="box2">
+      <article class="container mt-3">
+        <div class="row d-flex justify-content-around">
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://es.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_230/vue-a%C3%A9rienne-paris-tour-eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-fotolia/19544352-1-fre-FR/Vue-a%C3%A9rienne-Paris-Tour-Eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-Fotolia.jpg" alt="Aeropuerto" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Aeropuerto Internacional de Paris<em> "Charles de Gaulle."</em> </h5>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">EZE-CDG</small>
+              <small> jue. 5 oct. 2023 23:55- </small>
+              <small class="text-muted-color"> Directo </small> 
+            </p>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">CDG-EZE</small>
+              <small> sab.14 oct. 2023 13:10-</small>
+              <small class="text-muted-color"> Directo </small>
+            </p>
+            <p class="card-text">
+              <small> $580.000 </small>
+              <small class="text-muted"><em> 7 dias </em></small>
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://es.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_230/vue-a%C3%A9rienne-paris-tour-eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-fotolia/19544352-1-fre-FR/Vue-a%C3%A9rienne-Paris-Tour-Eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-Fotolia.jpg" alt="Aeropuerto" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Aeropuerto Internacional de <em>"Paris-Orly."</em></h5>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">AEP-MAD-ORY</small>
+              <small> lun.3 abr. 2023 </small>
+              <small class="text-muted">21:40- 4 escalas</small>
+            </p>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">ORY-MAD-AEP</small>
+              <small> jue.20 abr. 2023 </small>
+              <small class="text-muted">17:45- 4 escalas</small>
+            </p>
+            <p class="card-text">
+              <small> $280.000 </small>
+              <small class="text-muted"><em> 14 dias </em></small>
+            </p>
+          </div>
+        </div>
+      </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="Miami">
+      <div class="container ImagenMiami mt-3">
+        <h4 class="TRoma d-flex justify-content-center my-5">Miami</h4>
+      </div>
+
+      <div class="box3">
+      <article class="container mt-3">
+        <div class="row d-flex justify-content-around">
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://resizer.glanacion.com/resizer/YdchRbk6irLnBfekkT6QBYQTBUI=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HA6HRKPSGFAQTIY7I23EJ4L54A.jpg" alt="Aeropuerto" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Aeropuerto Internacional de <em>"Miami."</em></h5>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">EZE-MIA</small>
+              <small> mie.20 sep. 2023 </small>
+              <small class="text-muted">15:05- 1 escalas</small>
+            </p>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">MIA-EZE</small>
+              <small> JUE.5 oct. 2023 </small>
+              <small class="text-muted">22:00- 1 escalas</small>
+            </p>
+            <p class="card-text">
+              <small> $220.000 </small>
+              <small class="text-muted"><em> 14 dias </em></small>
+            </p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+          <div class="my-3">
+            <img src="https://resizer.glanacion.com/resizer/YdchRbk6irLnBfekkT6QBYQTBUI=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HA6HRKPSGFAQTIY7I23EJ4L54A.jpg" alt="Aeropuerto" class="img-fluid" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Aeropuerto Internacional de <em>"Miami."</em></h5>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">TUC-MIA</small>
+              <small> mar. 11 jul. 2023 </small>
+              <small class="text-muted">17:15- 1 escalas</small>
+            </p>
+            <p class="card-text">
+              <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">MIA-TUC</small>
+              <small> sab.22 jul. 2023 </small>
+              <small class="text-muted">18:05- 1 escalas</small>
+            </p>
+            <p class="card-text">
+              <small> $495.000 </small>
+              <small class="text-muted"><em> 10 dias </em></small>
+            </p>
+          </div>
+        </div>
+      </div>
+      </article>
+    </div>
+  </section>
+
+
+  <section class="Rio">
+    <div class="container ImagenRio mt-3">
+      <h4 class="TRoma d-flex justify-content-center my-5">Rio de Janeiro</h4>
+    </div>
+
+    <div class="box4">
+    <article class="container mt-3">
+      <div class="row d-flex justify-content-around">
+      <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+        <div class="my-3">
+          <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/71/16/84.jpg" alt="Aeropuerto" class="img-fluid" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Aeropuerto Internacional <em>"Galeão." </em></h5>
+          <p class="card-text">
+            <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">TUC-GIG</small>
+            <small> mie.18 ene. 2023 </small>
+            <small class="text-muted">17:15- 1 escala</small>
+          </p>
+          <p class="card-text">
+            <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">CIA-LIS-AEP</small>
+            <small> jue.26 ene. 2023 </small>
+            <small class="text-muted">00:45- 1 escalas</small>
+          </p>
+          <p class="card-text">
+            <small> $200.000 </small>
+            <small class="text-muted"><em>7 dias </em></small>
+          </p>
+        </div>
+      </div>
+      <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+        <div class="my-3">
+          <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/71/16/84.jpg" alt="Aeropuerto" class="img-fluid" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Aeropuerto <em>"Santos Dumont."</em></h5>
+          <p class="card-text">
+            <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">AEP-SDU</small>
+            <small> mar.21 mar. 2023 18:25-</small>
+            <small class="text-muted-color"> Directo </small>
+          </p>
+          <p class="card-text">
+            <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">SDU-AEP</small>
+            <small> vie.31 mar. 2023 14:45-</small>
+            <small class="text-muted-color"> Directo </small>
+          </p>
+          <p class="card-text">
+            <small>  $180.000 </small>
+            <small class="text-muted"> <em> 10 dias </em></small>
+          </p>
+        </div>
+      </div>
+    </div>
+    </article>
+    </div>
+</section>
+
+<section class="Bangkok">
+    <div class="container ImagenBangkok mt-3">
+    <h4 class="TRoma d-flex justify-content-center my-5">Bangkok</h4>
+    </div>
+
+    <div class="box5">
+    <article class="container mt-3">
+      <div class="row d-flex justify-content-around">
+      <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+        <div class="my-3">
+          <img src="https://www.cronista.com/files/image/297/297593/5ffe0c82c6d33.jpg" alt="Aeropuerto" class="img-fluid" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Aeropuerto Internacional <em>"Don Mueang."</em></h5>
+          <p class="card-text">
+            <a id="iconoavion" class= "fa-solid fa-plane-up"></a>IDA <small class="text-muted">EZE-FRK-BKK</small>
+            <small> lun.13 mar. 2023 </small>
+            <small class="text-muted">15:35- 2 escalas</small>
+          </p>
+          <p class="card-text">
+            <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">BKK-FRK-EZE</small>
+            <small> mar.4 abr. 2023 </small>
+            <small class="text-muted">23:45- 2 escalas</small>
+          </p>
+          <p class="card-text">
+            <small> $650.000 </small>
+            <small class="text-muted">19 dias</small>
+          </p>
+        </div>
+      </div>
+      <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+        <div class="my-3">
+          <img src="https://www.cronista.com/files/image/297/297593/5ffe0c82c6d33.jpg" alt="Aeropuerto" class="img-fluid" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Aeropuerto Internacional <em>"Suvarnabhumi."</em></h5>
+          <p class="card-text">
+            <a id="iconoavion" class= "fa-solid fa-plane-up"></a> IDA <small class="text-muted">EZE-YUL-SIN-VTBS</small>
+            <small> mie.11 oct. 2023 </small>
+            <small class="text-muted">16:35- 3 escalas</small>
+          </p>
+          <p class="card-text">
+            <a id="iconoavion" class= "fa-solid fa-plane-up"></a>VUELTA <small class="text-muted">VTBS-SIN-YUL-EZE</small>
+            <small> mie.25 oct. 2023 </small>
+            <small class="text-muted">19:10- 3 escalas</small>
+          </p>
+          <p class="card-text">
+            <small> $470.000 </small>
+            <small class="text-muted">12 dias</small>
+          </p>
+        </div>
+      </div>
+    </div>
+    </article>
+    </div>
+
+    <br>
+    <br>
+</section>
+
+<div class="box6">
+  <div class="card col-12 col-sm-12 col-md-12 col-lg-4">
+      <div class="card text-center">
+          <div class="card-body">
+              <div class="card-footer text-muted">
+                  <form>
+                  <label for="idDestino" >
+                       <p>¿No encontraste el destino que buscas?</p>
+                       <input id="Destino" name="idDestino" type="search" placeholder="Buscar"/>
+                  </label>
+                  </form>
+              </div>
+          </div>
+      </div>  
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+    <footer class="pie-pagina mt-2">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="#">
+                  <img class="d-none d-sm-block" src="https://tip-viajero.com/wp-content/uploads/2020/06/cropped-tip-viajero-logo.png" >
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2> SOBRE NOSOTROS </h2>
+              <p> Quienes somos </p>
+              <p> Contacto </p>
+              <p> Promociones bancarias </p>
+          </div>
+          
+          <div class="box-2">
+              <h2> SIGUENOS </h2>
+              <div class="red-social">
+                  <a href="#" class="fa fa-facebook"> </a>
+                  <a href="#" class="fa fa-twitter"> </a>
+                  <a href="#" class="fa fa-instagram"> </a>
+                  <a href="#" class="fa fa-youtube"> </a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2022 <b>Slee Dw</b> - Todos los Derechos Reservados. </small>
+      </div>
+
+  </footer>
+
+    
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

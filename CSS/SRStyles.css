@@ -1,0 +1,250 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+.Registrofondo {
+        background: #acb2ae;
+    }
+
+.LogoViajeros {
+    object-fit: contain;
+    mix-blend-mode: color white;
+}
+
+.HeaderViajeros {
+    background-image: url(../imagenes/IMG-20221205-WA0031.jpg);
+    background-size: cover;
+    height: 370px;
+    overflow: hidden;
+    background-position: center center;
+    
+}
+
+.HeaderGastronomia {
+    background-image: url(../imagenes/IMG-20221205-WA0031.jpg);
+    background-size: cover;
+    height: 200px;
+    overflow: hidden;
+    background-position: center center;
+    
+}
+
+.HeaderVuelos {
+    background-image: url(../imagenes/IMG-20221205-WA0031.jpg);
+    background-size: cover;
+    height: 200px;
+    overflow: hidden;
+    background-position: center center;
+    
+}
+
+.TituloViajeros {
+    font-size: 75px;
+    color: #304258;
+
+}
+
+.pViajeros {
+    font-size: 35px;
+    color: #304258;
+}
+
+.TituloGastronomia {
+    font-size: 75px;
+    color: #304258;
+
+}
+
+.TituloVuelos {
+    font-size: 75px;
+    color: #304258;
+
+}
+
+
+
+
+
+.box1 .card-text #iconoavion {
+    color:rgba(197, 194, 194, 0.905);
+} 
+.box2 .card-text #iconoavion {
+    color:rgba(197, 194, 194, 0.905);
+} 
+.box3 .card-text #iconoavion {
+    color:rgba(197, 194, 194, 0.905);
+} 
+.box4 .card-text #iconoavion {
+    color:rgba(197, 194, 194, 0.905);
+} 
+.box5 .card-text #iconoavion {
+    color:rgba(197, 194, 194, 0.905);
+} 
+
+.box6 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Roma h4 {
+    font-size: 30px;
+    background-color: rgb(211, 205, 205);
+    letter-spacing:3px;
+}
+.Paris h4 {
+    font-size: 30px;
+    background-color: rgb(211, 205, 205);
+    letter-spacing:3px;
+}
+.Paris p .text-muted-color {
+    color: green; 
+}
+
+
+.Miami h4 {
+    font-size: 30px;
+    background-color: rgb(211, 205, 205);
+    letter-spacing:3px;
+}
+.Rio h4 {
+    font-size: 30px;
+    background-color: rgb(211, 205, 205);
+    letter-spacing:3px;
+}
+.Rio p .text-muted-color {
+    color: green; 
+}
+.Bangkok h4 {
+    font-size: 30px;
+    background-color: rgb(211, 205, 205);
+    letter-spacing:3px;
+}
+
+.corazon{
+    position: absolute;
+    display: inline-block;
+    left: 80%;
+    top: 2%;
+    opacity: 0.6;
+
+}
+
+
+.contenedorp{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centradop{
+    font-size: 1.1rem;
+    color: #ffffff;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(13, 13, 12);
+    opacity: 0.7;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 90%;
+        height: auto;
+        padding-top: 10px; 
+    }
+
+    .card-body{
+        text-align: center;
+    }
+
+    .corazon{
+        position: absolute;
+        display: inline-block;
+        left: 75%;
+        top: 2%;
+        opacity: 0.4;
+    
+    }
+}
+
+.fotoicono{ width: 50%; 
+    height: auto;
+    }
+
+/* Footer */
+
+.pie-pagina { 
+    width: 100%;
+    background-color: rgba(245, 205, 168, 0.9);
+
+}
+
+.pie-pagina .grupo-1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: brown;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    margin-bottom: 15px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: beige;
+    background-color: rgb(28, 15, 49);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .box-2 h2 {
+    color: brown;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgba(68, 227, 161, 0.905);
+}
+
+.pie-pagina .grupo-2 {
+    background-color:  rgb(28, 15, 49);
+    padding: 15px 10px;
+    text-align: center;
+    color: beige;
+
+}
+.pie-pagina .grupo-2 small{
+    font-size: 16px;
+}

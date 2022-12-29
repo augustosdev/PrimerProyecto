@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viajeros-Hospedajes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/75e046272c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/SRStyles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a href="Viajeros.html" class="navbar-brand">
+            <img src="https://tip-viajero.com/wp-content/uploads/2020/06/cropped-tip-viajero-logo.png" width="40" height="30"
+            class=" LogoViajeros d-inline-block align-top" alt="Logo">
+            Viajeros</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarDark">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Hospedaje</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Roma">Roma</a></li>
+                  <li><a class="dropdown-item" href="#Paris">Paris</a></li>
+                  <li><a class="dropdown-item" href="#Miami">Miami</a></li>
+                  <li><a class="dropdown-item" href="#Rio">Rio de Janeiro</a></li>
+                  <li><a class="dropdown-item" href="#Bangkok">Bangkok</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Actividades.html">Actividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="articuloGastronomia.html">Gastronomia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vuelos.html">Vuelos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">
+                    Inicio de sesion
+                </button>
+                    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="loginLabel">Bienvenido</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-outline mb-4">
+                                          <input type="email" id="mail" class="form-control" placeholder="usuario@gmail.com" />
+                                          <label class="form-label" for="mail">Usuario</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                          <input type="password" id="contraseña" class="form-control" />
+                                          <label class="form-label" for="contraseña">Contraseña</label>
+                                        </div>
+                                        <div class="row mb-4">
+                                          <div class="col d-flex justify-content-center">
+                                            <div class="form-check">
+                                              <input class="form-check-input" type="checkbox" value="" id="recordarme" checked />
+                                              <label class="form-check-label" for="recordarme"> Recordarme </label>
+                                            </div>
+                                          </div>
+                                          <div class="col">
+                                            <a href="#!">Olvidaste la contraseña?</a>
+                                          </div>
+                                        </div>
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary btn-block mb-4">Iniciar sesion</button>
+                                        </div>    
+                                        <div class="text-center">
+                                          <p>No eres miembro? <a href="registro.html" target="_blank">Registrate</a></p>
+                                          <p>o registrate con:</p>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-google"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-twitter"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-github"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+      <div class="HeaderGastronomia">
+        <h1 class="TituloGastronomia d-flex justify-content-center my-5">
+          Hospedajes
+        </h1>
+      </div>
+    </header>
+
+    <section class="Roma">
+      <div class="container-fluid ImagenRoma mt-3">
+        <a name="Roma"><h4 class="TRoma d-flex justify-content-center my-5">Roma</h4></a>
+
+      </div>
+      <article class="roma d-flex justify-content-evenly d-flex flex-wrap">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3  ">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/216809624.jpg"  class="img-fluid rounded-start " alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€130 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-2">Viale trastevere</h5>
+                <p class="card-text py-1"> ofrece alojamiento con patio y terraza.</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt="">Campo de' Fiori (3.5 km del centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 221 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/it/viale-trastevere-231-a-2.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-126693;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;hpos=3;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671219757;srpvid=e9828a95997d0129;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/138455835.jpg"  class="img-fluid rounded-start " alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€85 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">Roof Garden</h5>
+                        <p class="card-text py-1">Equipado con salas de estar, ofrece una terraza y un salón compartido. </p>
+                        <p class="card-text "><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> Montparnasse (2.5 km del centro)</small></p>
+                        <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 254 (Comentarios)</small></p>
+                        <div class="buttoncenter">
+                          <a href="https://www.booking.com/hotel/it/cult-roma-roof-garden.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-126693;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=2;hpos=2;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671219757;srpvid=e9828a95997d0129;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/95059416.jpg" class="img-fluid rounded-start" alt="..."style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€95 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">Condotti Luxury</h5>
+                <p class="card-text py-2">El departamento cuenta con cocina, microondas, y baño con ducha.</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt="">dei Condotti (1 km del centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 130 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/it/app-condotti-luxury-apartment-in-rome.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-126693;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;hpos=3;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671219921;srpvid=e9828a95997d0129;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </article>
+    </section>
+
+    <section class="Paris" name="Paris">
+      <div class="container-fluid ImagenParis mt-3">
+        <a name="Paris"><h4 class="TRoma d-flex justify-content-center my-5">Paris</h4></a>
+
+      </div>
+      <article class="paris d-flex justify-content-evenly d-flex flex-wrap">    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/239424471.jpg" class="img-fluid rounded-start" alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€200 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title ">Citadines Saint</h5>
+                <p class="card-text">Los departamentos disponen de aire acondicionado, ascensor, TV vía satélite y baño privado con bañera</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> Louvre (centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐⭐ 400 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/fr/citadines-aparthotel-bastillemarais.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-1456928;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;hpos=3;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671219410;srpvid=397389e87b4b00b4;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/263137327.jpg"  class="img-fluid rounded-start" alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€105 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">Zazie Hotel</h5>
+                <p class="card-text py-2 ">las habitaciones son accesibles y disponen de TV y baño privado con secador de pelo.</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> Reuilly-Diderot (1 km del centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 210 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/fr/zaziehotel-paris.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-1456928;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=2;hpos=2;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671219410;srpvid=397389e87b4b00b4;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/170630829.jpg" class="img-fluid rounded-start" alt="..."style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€115 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">New Hotel</h5>
+                <p class="card-text py-2">Todas las habitaciones están insonorizadas y cuentan con TV vía satélite y teléfono. </p>
+                <p class="card-text "><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> Gare de l’Est (centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 110 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/fr/newhotel.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-1456928;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671219410;srpvid=397389e87b4b00b4;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    <section class="Miami">
+      <div class="container-fluid ImagenMiami mt-3">
+        <a name="Miami"><h4 class="TRoma d-flex justify-content-center my-5">Miami</h4></a>
+
+      </div>
+      <article class="Miami d-flex justify-content-evenly d-flex flex-wrap">    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/383657847.jpg"class="img-fluid rounded-start" alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€200 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title ">the collins</h5>
+                <p class="card-text">Las habitaciones privadas y compartidas del Hostel tienen microondas y heladera.</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> South Beach (1 km de la playa)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 550 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/us/ocean-breeze.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=20023182;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=30;hpos=5;nflt=ht_id%3D204;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671218960;srpvid=3832885e0b68016c;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/161880037.jpg"  class="img-fluid rounded-start" alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€105 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">Monte Carlo</h5>
+                <p class="card-text py-1 ">disponen de cocina completa, zona de estar y baño privado. tienen balcón.</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> Collins Avenue (90m playa)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐⭐ 380 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/us/miami-vacations-corporate-rentals-monte-carlo.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=20023182;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=5;hpos=5;nflt=ht_id%3D204;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671218622;srpvid=3832885e0b68016c;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/192285345.jpg" class="img-fluid rounded-start" alt="..."style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€115 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">Lennox Miami Beach</h5>
+                <p class="card-text py-2">ofrece zona de playa privada y pileta al aire libre.con buena ubicación en South Beach </p>
+                <p class="card-text "><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt="">Coral Gables (50m playa)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 120 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/us/lennox-miami-beach.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P%2A%2AXgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=20023182;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=2;hpos=2;nflt=ht_id%3D204;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1671218622;srpvid=3832885e0b68016c;type=total;ucfs=1&#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    <section class="Rio">
+      <div class="container-fluid ImagenRio mt-3">
+        <a name="Rio"><h4 class="TRoma d-flex justify-content-center my-5">Rio de Janeiro</h4></a>
+
+      </div>
+      <article class="Rio de Janeiro d-flex justify-content-evenly d-flex flex-wrap">    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/148492248.jpg" class="img-fluid rounded-start" alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€200 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title ">Hotel Downtown Santan</h5>
+                <p class="card-text">Las habitaciones incluyen aire acondicionado, baño privado con ducha. Se proporcionan toallas y ropa de cama.</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt="">Rua Santana 121 (centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 450 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/br/downtown-santana.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P**XgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-666610&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=22&hpos=22&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1671214524&srpvid=eb58805da364017c&type=total&ucfs=1&activeTab=main#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/101941129.jpg"  class="img-fluid rounded-start" alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€105 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title ">Apartamento em Ipanema</h5>
+                <p class="card-text ">a 6 km de los jardines botánicos de Río de Janeiro</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> Rua Visconde, Ipanema(1 km del centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐⭐ 280 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/br/apartment-ipanema-piraja.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P**XgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-666610&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=21&hpos=21&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1671214524&srpvid=eb58805da364017c&type=total&ucfs=1&activeTab=main#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/107505669.jpg" class="img-fluid rounded-start" alt="..."style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€115 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">Hotel Copacabana</h5>
+                <p class="card-text py-2"> A 300 metros de la famosa playa de Copacabana</p>
+                <p class="card-text "><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt="">Avenida Barata Ribeiro, 173, Copacabana (centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 140 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/br/best-western-plus-copacabana-design.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P**XgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-666610&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=19&hpos=19&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1671214524&srpvid=eb58805da364017c&type=total&ucfs=1&activeTab=main#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    <section class="Bangkok">
+      <div class="container-fluid ImagenBangkok mt-3">
+        <a name="Bangkok"><h4 class="TRoma d-flex justify-content-center my-5">Bangkok</h4></a>
+
+      </div>
+      <article class="Bangkok d-flex justify-content-evenly d-flex flex-wrap">    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/56947830.jpg" class="img-fluid rounded-start" alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€200 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title ">Sakura Sky Residence</h5>
+                <p class="card-text">El alojamiento dispone de recepción 24 horas y consigna de equipaje y un bar en la azotea</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> Wattana, 10100 Tailandia (centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐⭐ 405 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/th/sakura-sky-residence.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P**XgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-3414440&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=5&hpos=5&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1671220157&srpvid=395c8b5e3d6700ff&type=total&ucfs=1&activeTab=main#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/261444489.jpg"  class="img-fluid rounded-start" alt="..." style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€105 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">Star Sukhumvit</h5>
+                <p class="card-text py-1 ">Todas las habitaciones están equipadas con aire acondicionado, TV, heladera</p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt="">Phra Khanong Tai, 10260 (centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 254 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/th/star-sukhumvit.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P**XgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-3414440&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=9&hpos=9&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1671220157&srpvid=395c8b5e3d6700ff&type=total&ucfs=1&activeTab=main#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 my-3">
+            <div class="contenedorp col-md-6">
+              <img src="./imagenes/327583731.jpg" class="img-fluid rounded-start" alt="..."style="width: 260px; height:300px">
+              <img src="./imagenes/icons8-heart-32.png" class="corazon" alt="">
+              <div class="centradop">€115 / Nigth</div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title py-1">Planet Surawong</h5>
+                <p class="card-text py-1">equipaje y servicios de lavandería y de conserjería a disposición de los huéspedes.</p>
+                <p class="card-text "><small class="text-muted"><img src="./imagenes/icons8-visita-18.png" alt=""> Bang Rak, 10500 (centro)</small></p>
+                <p class="card-text"><small class="text-muted"><img src="./imagenes/icons8-3-star-hotel-32.png" alt="">⭐⭐⭐ 157 (Comentarios)</small></p>
+                <div class="buttoncenter">
+                  <a href="https://www.booking.com/hotel/th/red-planet-surawong-bangkok.es-ar.html?aid=309654&label=accommodations-spanish-es-row-4pzFTzT54P**XgpB_7vr0wS479808261783%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-297601666555%3Akwd-10986381762%3Alp1000116%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=9793a382ce1775310a3d7f512b1769af&dest_id=-3414440&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=13&hpos=13&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1671220157&srpvid=395c8b5e3d6700ff&type=total&ucfs=1&activeTab=main#availability_target" class="btn btn-info">Reservar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+
+    <footer class="pie-pagina mt-4">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="#">
+                  <img class="d-none d-sm-block" src="https://tip-viajero.com/wp-content/uploads/2020/06/cropped-tip-viajero-logo.png" >
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2> SOBRE NOSOTROS </h2>
+              <p> Quienes somos </p>
+              <p> Contacto </p>
+              <p> Promociones bancarias </p>
+          </div>
+          
+          <div class="box-2">
+              <h2> SIGUENOS </h2>
+              <div class="red-social">
+                  <a href="#" class="fa fa-facebook"> </a>
+                  <a href="#" class="fa fa-twitter"> </a>
+                  <a href="#" class="fa fa-instagram"> </a>
+                  <a href="#" class="fa fa-youtube"> </a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2022 <b>Slee Dw</b> - Todos los Derechos Reservados. </small>
+      </div>
+
+  </footer>
+
+    
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
