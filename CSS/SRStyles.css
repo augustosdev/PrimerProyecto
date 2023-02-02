@@ -173,9 +173,10 @@
     }
 }
 
-.fotoicono{ width: 50%; 
-    height: auto;
-    }
+.fotoicono{ 
+    width: 250px; 
+    height: 250px;
+    }  
 
 /* Footer */
 
