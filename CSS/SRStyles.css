@@ -174,9 +174,16 @@
 }
 
 .fotoicono{ 
-    width: 250px; 
-    height: 250px;
+    width: 60%; 
+    height: auto;
     }  
+
+.aboutus {
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px 150px;
+    color: gray
+}
 
 /* Footer */
 
